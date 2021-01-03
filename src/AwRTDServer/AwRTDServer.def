@@ -1,0 +1,11 @@
+; AvkPositionRTD.def : Declares the module parameters for the DLL.
+
+LIBRARY      "AvkPositionRTDSecmasterv2"
+;DESCRIPTION  'AvkPositionRTDSecmasterv2 Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
